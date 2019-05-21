@@ -1,0 +1,27 @@
+.page{
+  height:156px;
+  background: #fff;
+}
+ul.pagination {
+  padding:50px 0;
+  margin:0 auto;
+  width:350px;
+  display: block;
+  background: #fff;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+  float: left;
+  padding:13px 16px;
+  margin:0 5px;
+  text-align: center;
+  border-radius:20px;
+  color: #565656;
+  background:#e8e8e8;
+}
+.pagination .active{
+  color:#fff;
+  background-color: #c6a044;
+}

@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-size: 62.5%
+}
+
+ul,li,div,p,body,h1,h2,h3,h4,h5,h6,dl,dt,dd {
+	margin: 0;
+	padding: 0
+}
+
+li {
+	list-style: none
+}
+
+a {
+	text-decoration: none;
+	color: #2a2a2a
+}
+
+em {
+	font-style: normal;
+	font-weight: 400
+}
+
+input {
+	-webkit-appearance: none;
+	outline: 0
+}
+
+* {
+	outline: 0;
+	webkit-focus-ring-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none
+}
+
+.hide {
+	display: none
+}
+
+body,html {
+	width: 100%;
+	font-family: "Microsoft YaHei","Helvetica Neue",Arial,HelveticaNeue,Helvetica,"BBAlpha Sans",sans-serif;
+	font-weight: 400;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-align: center
+}
+
+body {
+	opacity: 1;
+	-webkit-transition: opacity 500ms ease-in;
+	transition: opacity 500ms ease-in
+}
+
+body.noscroll {
+	overflow: hidden
+}
+
+p,a,li {
+	font-size: .24rem;
+	color: #fff
+}
+
+html {
+	font-size: 312.5%
+}
+
+@media screen and (max-width:359px) and (orientation:portrait) {
+	html {
+		font-size: 266.67%
+	}
+}
+
+@media screen and (min-width:360px) and (max-width:374px) and (orientation:portrait) {
+	html {
+		font-size: 300%
+	}
+}
+
+@media screen and (min-width:384px) and (max-width:399px) and (orientation:portrait) {
+	html {
+		font-size: 320%
+	}
+}
+
+@media screen and (min-width:400px) and (max-width:413px) and (orientation:portrait) {
+	html {
+		font-size: 333.33%
+	}
+}
+
+@media screen and (min-width:414px) and (max-width:431px) and (orientation:portrait) {
+	html {
+		font-size: 345%
+	}
+}
+
+@media screen and (min-width:432px) and (max-width:479px) and (orientation:portrait) {
+	html {
+		font-size: 360%
+	}
+}
+
+@media screen and (min-width:480px) and (max-width:639px) and (orientation:portrait) {
+	html {
+		font-size: 400%
+	}
+}
+
+@media screen and (min-width:640px) and (orientation:portrait) {
+	html {
+		font-size: 533.33%
+	}
+}
+
+body,html {
+  width: 100%;
+	background: #1f2124;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+	background-color: #24252a;
+}

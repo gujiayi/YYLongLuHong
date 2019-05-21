@@ -1,0 +1,458 @@
+.content{
+  min-width: 1200px;
+  margin:0 auto;
+  background:url(../images/index/bottom_bg.jpg) #1c1e34 no-repeat;
+}
+.page{
+  position: relative;
+}
+.page1{
+  height:756px;
+}
+.content .page .num {
+  position: absolute;
+  top:-57px;
+  left:50%;
+  width:158px;
+  height:137px;
+  margin-left:-80px;
+  background:url(../images/index/num.png) no-repeat;
+  z-index:11
+
+}
+.content .page1 .slice_wrap{
+  padding:130px 0 0 15% ;
+}
+.page1 .tab_wrap {
+  position: relative;
+  width:957px;
+  height:498px;
+  padding:50px 0 0 60px;
+  background: url(../images/index/list.png) no-repeat;
+}
+.page1 .tab li {
+	float:left;
+  padding: 0 20px;
+  color:#fff;
+  cursor:pointer;
+  font-size:20px;
+  border-right:2px solid #fff;
+}
+.page1 .tab li:last-child{
+  border:0
+}
+.page1 .tab li.active {
+	color:#f5ef90;
+}
+
+.page1 .tab_list{
+  position: relative;
+  height:355px;
+  margin-top:45px;
+  color:#fff
+}
+.page1 .tab_list .main{
+  display: none;
+}
+.page1 .tab_list .selected{
+  display: block;
+}
+.page1 .tab_list ul{
+  height:300px;
+  overflow: hidden;
+}
+.page1 .tab_list a:hover{
+  color:#bca5ff;
+}
+.page1 .tab_list li{
+  line-height: 42px;
+}
+.page1 .tab_list .news_list{
+  float: left;
+  width: 498px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.page1 .tab_list .times{
+  display: block;
+  float: left;
+  padding-left: 40px;
+}
+.page1 .tab_list .more{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 25px;
+  margin:0 auto;
+  text-align: center;
+  line-height: 0;
+}
+.page1 .tab_list .more a{
+  display: block;
+  padding:0 20px;
+  color:#8d97b9
+}
+.page1 .tab_list .more a:hover{
+  color:#947fd3
+}
+.page1 .tab_list .line{
+  position: relative;
+  display: block;
+  width:270px;
+  height:25px;
+  border-top: 1px dashed rgba(213,213,213,0.2);
+}
+.page1 .tab_list .line::before{
+  content: '';
+  width:14px;
+  height:14px;
+  position: absolute;
+  top:-8px;
+  display: block;
+  background: url(../images/index/notice_icon.png) no-repeat;
+}
+.page1 .tab_list .line_left::before{
+  right:0;
+}
+.page1 .tab_list .line_right::before{
+  left:0;
+}
+.page1 .tab_wrap .code{
+  position: absolute;
+  right:90px;
+  top:166px;
+}
+.page1 .tab_wrap .code img{
+  width:100px;
+  height:100px;
+}
+.page1 .tab_wrap .code{
+  line-height: 42px;
+  color:#fff;
+}
+.page2{
+  height:900px;
+  position: relative;
+}
+.page2 .num{
+  top:-70px !important;
+  background: url(../images/index/num2.png) no-repeat !important;
+}
+.page2 .tab_wrap{
+  width:1200px;
+  height:824px;
+  margin:0 auto;
+  position: relative; 
+  
+
+}
+.page2 .title,.page3 .title{
+  width:793px;
+  height:87px;
+  position: absolute;
+  left:50%;
+  top:100px;
+  margin-left:-400px;
+  background:url(../images/index/title.png) no-repeat;
+  z-index:10;
+  cursor: pointer;
+}
+
+.swiper_container img{
+  width:100%;
+}
+
+.swiper-button-prev {
+  width: 51px;
+  height: 85px;
+  background-image: url(../images/index/intro_left.png);
+  background-size: contain;
+  left:-20px;
+  right: auto;
+}
+.swiper-button-next{
+  width: 51px;
+  height: 85px;
+  background-image: url(../images/index/intro_right.png);
+  background-size: contain;
+  left: auto;
+  right:-100px;
+}
+.page2 .tab_title{
+  position: absolute;
+  top:330px;
+  left:80%;
+  width:150px;
+  height:41px;
+  z-index:10;
+ cursor: pointer;
+ background: url(../images/index/jop1.png)
+}
+.page2 .active{
+  background: url(../images/index/jop2.png)
+}
+.page2 .tab_title li{
+  float:left;
+  width:75px;
+  height:inherit;
+}
+
+.page2 .tab_list .main{
+  display: none;
+  width:1300px;
+  position: absolute;
+  left:50%;
+  bottom:-65px;
+  margin-left:-700px;
+}
+.page2 .tab_list .selected{
+  display: block;
+}
+.page3{
+  height:910px;
+}
+.page3 .num{
+  top:-70px !important;
+  background: url(../images/index/num3.png) no-repeat !important
+} 
+.page3 .title{
+  width:658px;
+  left:50%;
+  top:100px;
+  margin-left:-330px;
+  background:url(../images/index/title2.png) no-repeat;
+ 
+}
+.page3 .slice_wrap{
+  width:1100px;
+  overflow: hidden;
+  margin:0 auto;
+  position: absolute;
+  top:290px;
+  left:50%;
+  margin-left:-550px;
+}
+.page3 .slice_wrap ul {
+  display: flex;
+}
+
+.page3 .show{
+  float: left;
+  display: none;
+  width:680px;
+  margin-left:10px
+}
+.page3 .list{
+  width:90px;
+  height:488px;
+ margin-left:10px;
+}
+
+.page3 .one .list{
+  background:url(../images/index/list1.png) no-repeat;
+  background-size:100%;
+} 
+.page3 .two .list{
+  background:url(../images/index/list2.png)no-repeat;
+  background-size:100%;
+} 
+.page3 .three .list{
+  background:url(../images/index/list3.png)no-repeat;
+  background-size:100%;
+} 
+.page3 .four .list{
+  background:url(../images/index/list4.png)no-repeat;
+  background-size:100%;
+} 
+.page3 .five .list{
+  background:url(../images/index/list5.png)no-repeat;
+  background-size:100%;
+} 
+.page3 .sub{
+  float:left;
+  width:90px;
+  height:488px;
+}
+.page3 .img{
+  float: left;
+  width:570px;
+  height:464px;
+  margin:13px 10px 0;
+ 
+}
+.page3 img{
+  width:100%;
+  height:100%;
+}
+.page3 .one .sub{
+  background:url(../images/index/active_list1.png)no-repeat;
+  background-size:100%;
+} 
+.page3 .two .sub{
+  background:url(../images/index/active_list2.png)no-repeat;
+  background-size:100%;
+} 
+.page3 .three .sub{
+  background:url(../images/index/active_list3.png)no-repeat;
+  background-size:100%;
+} 
+.page3 .four .sub{
+  background:url(../images/index/active_list4.png)no-repeat;
+  background-size:100%;
+} 
+.page3 .five .sub{
+  background:url(../images/index/active_list5.png)no-repeat;
+  background-size:100%;
+} 
+
+.page3 .active .show,.page3 .active{
+  display: block;
+}
+
+
+/* 登录注册 */
+.mod-login{
+  display: none;
+  position: fixed;
+  top:50%;
+  left:50%;
+  margin-top:-145px;
+  margin-left:-215px;
+  width:430px;
+  height:290px;
+  z-index:12;
+  background: #f7f6f6;
+  border-radius:20px;
+}
+.login{
+  position: relative;
+  line-height: 40px;
+  padding-top:6px;
+  text-align: center;
+  font-size: 16px;
+  color: #565656;
+  border-bottom:1px solid #cccbcb
+}
+.login a{
+  content:'';
+  display: block;
+  position: absolute;
+  left:20px;
+  top:16px;
+  width:15px;
+  height:23px;
+  background:url(../images/index/back.png) no-repeat;
+}
+
+.login-con{
+  padding-top:16px;
+}
+
+.login-account .item input{
+  width:392px;
+  height:46px;
+  line-height: 46px;
+  margin-bottom:14px;
+  padding:0 18px;
+  border:0;
+  outline: none
+}
+.login-account .item{
+  position: relative;
+}
+.login-account .icon-phone::after{
+  content: '';
+  display: block;
+  position: absolute;
+  right:20px;
+  top:9px;
+  width:25px;
+  height:27px;
+  background:url(../images/index/phone_icon.png) no-repeat;
+}
+
+.login-account .icon-code::after{
+  content: '获取验证码';
+  display: block;
+  position: absolute;
+  right:20px;
+  top:7px;
+  padding:8px 15px;
+  color:#52d1d3;
+  border-radius: 5px;
+  border:1px solid #52d1d3;
+
+}
+.tip_text{
+  position: relative;
+  padding:0 0 26px 30px;
+  font-size:10px;
+  color:#757575;
+}
+.tip_text::before{
+  content: '.';
+  display: block;
+  position: absolute;
+  left:15px;
+  top:-35px;
+  font-size:50px;
+  color:#757575;
+  border-radius: 5px;
+}
+.btn-tologin{
+  width:310px ;
+  height:46px;
+  margin-left:60px;
+  border-radius:5px;
+  color:#fff;
+  background: #52d1d3;
+  border:0;
+  outline: none;
+  cursor:pointer;
+}
+.gift_dialog {
+  display: none;
+  position: relative;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -244px;
+  margin-top: -185px;
+  z-index: 9999;
+}
+.gift_dialog .gift {
+  width: 488px;
+  height: 370px;
+  background: url(../images/index/gift_dialog.png) no-repeat center center;
+  background-size: cover;
+}
+.gift_dialog .title {
+  padding-top: 150px;
+}
+.gift_dialog .title h2 {
+  width:330px;
+  height: 31px;
+  margin: 0 auto;
+  background: url(../images/index/dislog_title.png) no-repeat center center;
+  background-size: cover;
+}
+.gift_dialog p {
+  padding-top: 32px;
+  padding-left: -60px;
+  text-align: center;
+  font-size: 20px;
+  color: #947fd3;
+}
+.gift_dialog .close {
+  position: absolute;
+  right: -44px;
+  top: 8px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background: url(../images/index/close.png) no-repeat center center;
+  background-size: contain;
+}
+
